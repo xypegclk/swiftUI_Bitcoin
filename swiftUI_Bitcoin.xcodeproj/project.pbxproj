@@ -15,6 +15,7 @@
 		97DA00A6245BB07300D3033A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97DA00A4245BB07300D3033A /* LaunchScreen.storyboard */; };
 		97DA00B1245BB07300D3033A /* swiftUI_BitcoinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA00B0245BB07300D3033A /* swiftUI_BitcoinTests.swift */; };
 		97DA00BC245BB07300D3033A /* swiftUI_BitcoinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA00BB245BB07300D3033A /* swiftUI_BitcoinUITests.swift */; };
+		97DA00CA245BB32A00D3033A /* WebSocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DA00C9245BB32A00D3033A /* WebSocketService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		97DA00B7245BB07300D3033A /* swiftUI_BitcoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUI_BitcoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97DA00BB245BB07300D3033A /* swiftUI_BitcoinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUI_BitcoinUITests.swift; sourceTree = "<group>"; };
 		97DA00BD245BB07300D3033A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97DA00C9245BB32A00D3033A /* WebSocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				97DA00A4245BB07300D3033A /* LaunchScreen.storyboard */,
 				97DA00A7245BB07300D3033A /* Info.plist */,
 				97DA00A1245BB07300D3033A /* Preview Content */,
+				97DA00C9245BB32A00D3033A /* WebSocketService.swift */,
 			);
 			path = swiftUI_Bitcoin;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				97DA009A245BB07000D3033A /* AppDelegate.swift in Sources */,
+				97DA00CA245BB32A00D3033A /* WebSocketService.swift in Sources */,
 				97DA009C245BB07000D3033A /* SceneDelegate.swift in Sources */,
 				97DA009E245BB07000D3033A /* ContentView.swift in Sources */,
 			);
